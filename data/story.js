@@ -10,9 +10,9 @@ var story = {
  "disableInteractions": false,
  "highlightHotspot": false,
  "highlightAllHotspots": false,
- "hideGallery": true,
+ "hideGallery": false,
  "galleryPageColorsEnabled": true,
- "galleryDecorNodesEnabled": false,
+ "galleryDecorNodesEnabled": true,
  "zoomEnabled": true,
  "cloud": false,
  "singleFile": false,
@@ -195,7 +195,6 @@ var story = {
    "groupIndex": 0,
    "title": "hover top bar",
    "image": "hover-top-bar.png",
-   "imageFixedLess": "fl/hover-top-bar.png",
    "index": 4,
    "width": 1920,
    "height": 69,
@@ -208,172 +207,151 @@ var story = {
    "protoOverflowV": false,
    "protoOverflowH": false,
    "isFrame": true,
-   "type": "regular",
-   "fixedPanels": [
+   "type": "overlay",
+   "fixedPanels": [],
+   "links": [
     {
-     "constrains": {
-      "top": false,
-      "bottom": false,
-      "left": false,
-      "right": false,
-      "height": false,
-      "width": false
+     "name": "Rectangle 45",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 69
      },
-     "x": 0,
-     "y": 0,
-     "width": 1920,
-     "height": 69,
-     "type": "float",
-     "index": 0,
-     "isFloat": true,
-     "links": [
+     "index": 4,
+     "reactions": [
       {
-       "name": "Rectangle 45",
-       "rect": {
-        "x": 0,
-        "y": 0,
-        "width": 1920,
-        "height": 69
-       },
-       "index": 4,
-       "reactions": [
-        {
-         "action": "FRAME",
-         "navigationType": "OVERLAY",
-         "trigger": "ON_HOVER",
-         "srcPageIndex": 4,
-         "frameIndex": 4,
-         "disableAutoScroll": true,
-         "pageType": "overlay",
-         "overlayCloseOnClickOutside": false,
-         "overlayPinType": "HOTSPOT",
-         "overlayPinHotspot": "RELATIVE",
-         "overlayPinHotspotX": 0,
-         "overlayPinHotspotY": 0,
-         "transAnimType": 0,
-         "transAnimDuration": 300,
-         "tmpDestModal": false
-        }
-       ]
-      },
-      {
-       "name": "메인화면",
-       "rect": {
-        "x": 577.7777709960938,
-        "y": 22,
-        "width": 63,
-        "height": 21
-       },
-       "index": 5,
-       "reactions": [
-        {
-         "action": "FRAME",
-         "navigationType": "OVERLAY",
-         "trigger": "ON_HOVER",
-         "srcPageIndex": 4,
-         "frameIndex": 6,
-         "pageType": "overlay",
-         "overlayCloseOnClickOutside": false,
-         "overlayPinType": "HOTSPOT",
-         "overlayPinHotspot": "RELATIVE",
-         "overlayPinHotspotX": -25.77777862548828,
-         "overlayPinHotspotY": -10.00022029876709,
-         "transAnimType": 3,
-         "transAnimDuration": 0.15000000596046448,
-         "tmpDestModal": false
-        }
-       ]
-      },
-      {
-       "name": "유튜브",
-       "rect": {
-        "x": 728,
-        "y": 22,
-        "width": 47,
-        "height": 21
-       },
-       "index": 6,
-       "reactions": [
-        {
-         "action": "FRAME",
-         "navigationType": "OVERLAY",
-         "trigger": "ON_HOVER",
-         "srcPageIndex": 4,
-         "frameIndex": 6,
-         "pageType": "overlay",
-         "overlayCloseOnClickOutside": false,
-         "overlayPinType": "HOTSPOT",
-         "overlayPinHotspot": "RELATIVE",
-         "overlayPinHotspotX": -34,
-         "overlayPinHotspotY": -10.000025749206543,
-         "transAnimType": 3,
-         "transAnimDuration": 0.15000000596046448,
-         "tmpDestModal": false
-        }
-       ]
-      },
-      {
-       "name": "고객센터",
-       "rect": {
-        "x": 862.22216796875,
-        "y": 22,
-        "width": 63,
-        "height": 21
-       },
-       "index": 7,
-       "reactions": [
-        {
-         "action": "FRAME",
-         "navigationType": "OVERLAY",
-         "trigger": "ON_HOVER",
-         "srcPageIndex": 4,
-         "frameIndex": 8,
-         "pageType": "overlay",
-         "overlayCloseOnClickOutside": false,
-         "overlayPinType": "HOTSPOT",
-         "overlayPinHotspot": "RELATIVE",
-         "overlayPinHotspotX": -25.222230911254883,
-         "overlayPinHotspotY": -10.000009536743164,
-         "transAnimType": 3,
-         "transAnimDuration": 0.15000000596046448,
-         "tmpDestModal": false
-        }
-       ]
-      },
-      {
-       "name": "Group 22",
-       "rect": {
-        "x": 1588,
-        "y": 12,
-        "width": 122,
-        "height": 40
-       },
-       "index": 8,
-       "reactions": [
-        {
-         "action": "FRAME",
-         "navigationType": "OVERLAY",
-         "trigger": "ON_CLICK",
-         "srcPageIndex": 4,
-         "frameIndex": 9,
-         "pageType": "overlay",
-         "overlayCloseOnClickOutside": true,
-         "overlayPinType": "HOTSPOT",
-         "overlayPinHotspot": "RELATIVE",
-         "overlayPinHotspotX": -131,
-         "overlayPinHotspotY": 43.000221252441406,
-         "transAnimType": 0,
-         "transAnimDuration": 300,
-         "tmpDestModal": false
-        }
-       ]
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_HOVER",
+       "srcPageIndex": 4,
+       "frameIndex": 4,
+       "disableAutoScroll": true,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": false,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": 0,
+       "overlayPinHotspotY": 0,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
       }
-     ],
-     "image": "hover-top-bar-0.png",
-     "mskH": 69
+     ]
+    },
+    {
+     "name": "메인화면",
+     "rect": {
+      "x": 577.7777709960938,
+      "y": 22,
+      "width": 63,
+      "height": 21
+     },
+     "index": 5,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_HOVER",
+       "srcPageIndex": 4,
+       "frameIndex": 6,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": false,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -25.77777862548828,
+       "overlayPinHotspotY": -10.00022029876709,
+       "transAnimType": 3,
+       "transAnimDuration": 0.15000000596046448,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "유튜브",
+     "rect": {
+      "x": 728,
+      "y": 22,
+      "width": 47,
+      "height": 21
+     },
+     "index": 6,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_HOVER",
+       "srcPageIndex": 4,
+       "frameIndex": 6,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": false,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -34,
+       "overlayPinHotspotY": -10.000025749206543,
+       "transAnimType": 3,
+       "transAnimDuration": 0.15000000596046448,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "고객센터",
+     "rect": {
+      "x": 862.22216796875,
+      "y": 22,
+      "width": 63,
+      "height": 21
+     },
+     "index": 7,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_HOVER",
+       "srcPageIndex": 4,
+       "frameIndex": 8,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": false,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -25.222230911254883,
+       "overlayPinHotspotY": -10.000009536743164,
+       "transAnimType": 3,
+       "transAnimDuration": 0.15000000596046448,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Group 22",
+     "rect": {
+      "x": 1588,
+      "y": 12,
+      "width": 122,
+      "height": 40
+     },
+     "index": 8,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 4,
+       "frameIndex": 9,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": true,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -131,
+       "overlayPinHotspotY": 43.000221252441406,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
     }
    ],
-   "links": [],
    "layout": null
   },
   {
@@ -381,7 +359,6 @@ var story = {
    "groupIndex": 0,
    "title": "DOWNLOAD",
    "image": "download.png",
-   "imageFixedLess": "fl/download.png",
    "index": 5,
    "width": 1920,
    "height": 3281,
@@ -395,169 +372,7 @@ var story = {
    "protoOverflowH": false,
    "isFrame": true,
    "type": "regular",
-   "fixedPanels": [
-    {
-     "constrains": {
-      "top": false,
-      "bottom": false,
-      "left": false,
-      "right": false,
-      "height": false,
-      "width": false
-     },
-     "x": 0,
-     "y": 0,
-     "width": 1920,
-     "height": 69,
-     "type": "float",
-     "index": 0,
-     "isFloat": true,
-     "links": [
-      {
-       "name": "Rectangle 45",
-       "rect": {
-        "x": 0,
-        "y": 0,
-        "width": 1920,
-        "height": 69
-       },
-       "index": 19,
-       "reactions": [
-        {
-         "action": "FRAME",
-         "navigationType": "OVERLAY",
-         "trigger": "ON_HOVER",
-         "srcPageIndex": 5,
-         "frameIndex": 4,
-         "pageType": "overlay",
-         "overlayCloseOnClickOutside": false,
-         "overlayPinType": "HOTSPOT",
-         "overlayPinHotspot": "RELATIVE",
-         "overlayPinHotspotX": 0,
-         "overlayPinHotspotY": 0,
-         "transAnimType": 0,
-         "transAnimDuration": 300,
-         "tmpDestModal": false
-        }
-       ]
-      },
-      {
-       "name": "메인화면",
-       "rect": {
-        "x": 577.7777709960938,
-        "y": 22,
-        "width": 63,
-        "height": 21
-       },
-       "index": 20,
-       "reactions": [
-        {
-         "action": "FRAME",
-         "navigationType": "OVERLAY",
-         "trigger": "ON_HOVER",
-         "srcPageIndex": 5,
-         "frameIndex": 6,
-         "pageType": "overlay",
-         "overlayCloseOnClickOutside": false,
-         "overlayPinType": "HOTSPOT",
-         "overlayPinHotspot": "RELATIVE",
-         "overlayPinHotspotX": -25.77777862548828,
-         "overlayPinHotspotY": -10.00022029876709,
-         "transAnimType": 3,
-         "transAnimDuration": 0.15000000596046448,
-         "tmpDestModal": false
-        }
-       ]
-      },
-      {
-       "name": "유튜브",
-       "rect": {
-        "x": 728,
-        "y": 22,
-        "width": 47,
-        "height": 21
-       },
-       "index": 21,
-       "reactions": [
-        {
-         "action": "FRAME",
-         "navigationType": "OVERLAY",
-         "trigger": "ON_HOVER",
-         "srcPageIndex": 5,
-         "frameIndex": 6,
-         "pageType": "overlay",
-         "overlayCloseOnClickOutside": false,
-         "overlayPinType": "HOTSPOT",
-         "overlayPinHotspot": "RELATIVE",
-         "overlayPinHotspotX": -34,
-         "overlayPinHotspotY": -10.000025749206543,
-         "transAnimType": 3,
-         "transAnimDuration": 0.15000000596046448,
-         "tmpDestModal": false
-        }
-       ]
-      },
-      {
-       "name": "고객센터",
-       "rect": {
-        "x": 862.22216796875,
-        "y": 22,
-        "width": 63,
-        "height": 21
-       },
-       "index": 22,
-       "reactions": [
-        {
-         "action": "FRAME",
-         "navigationType": "OVERLAY",
-         "trigger": "ON_HOVER",
-         "srcPageIndex": 5,
-         "frameIndex": 8,
-         "pageType": "overlay",
-         "overlayCloseOnClickOutside": false,
-         "overlayPinType": "HOTSPOT",
-         "overlayPinHotspot": "RELATIVE",
-         "overlayPinHotspotX": -25.222230911254883,
-         "overlayPinHotspotY": -10.000009536743164,
-         "transAnimType": 3,
-         "transAnimDuration": 0.15000000596046448,
-         "tmpDestModal": false
-        }
-       ]
-      },
-      {
-       "name": "Group 22",
-       "rect": {
-        "x": 1588,
-        "y": 12,
-        "width": 122,
-        "height": 40
-       },
-       "index": 23,
-       "reactions": [
-        {
-         "action": "FRAME",
-         "navigationType": "OVERLAY",
-         "trigger": "ON_CLICK",
-         "srcPageIndex": 5,
-         "frameIndex": 9,
-         "pageType": "overlay",
-         "overlayCloseOnClickOutside": true,
-         "overlayPinType": "HOTSPOT",
-         "overlayPinHotspot": "RELATIVE",
-         "overlayPinHotspotX": -131,
-         "overlayPinHotspotY": 43.000221252441406,
-         "transAnimType": 0,
-         "transAnimDuration": 300,
-         "tmpDestModal": false
-        }
-       ]
-      }
-     ],
-     "image": "download-0.png",
-     "mskH": 69
-    }
-   ],
+   "fixedPanels": [],
    "links": [
     {
      "name": "유튜브",
@@ -824,6 +639,146 @@ var story = {
        "tmpDestModal": false
       }
      ]
+    },
+    {
+     "name": "Rectangle 45",
+     "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 69
+     },
+     "index": 19,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_HOVER",
+       "srcPageIndex": 5,
+       "frameIndex": 4,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": false,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": 0,
+       "overlayPinHotspotY": 0,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "메인화면",
+     "rect": {
+      "x": 577.7777709960938,
+      "y": 22,
+      "width": 63,
+      "height": 21
+     },
+     "index": 20,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_HOVER",
+       "srcPageIndex": 5,
+       "frameIndex": 6,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": false,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -25.77777862548828,
+       "overlayPinHotspotY": -10.00022029876709,
+       "transAnimType": 3,
+       "transAnimDuration": 0.15000000596046448,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "유튜브",
+     "rect": {
+      "x": 728,
+      "y": 22,
+      "width": 47,
+      "height": 21
+     },
+     "index": 21,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_HOVER",
+       "srcPageIndex": 5,
+       "frameIndex": 6,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": false,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -34,
+       "overlayPinHotspotY": -10.000025749206543,
+       "transAnimType": 3,
+       "transAnimDuration": 0.15000000596046448,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "고객센터",
+     "rect": {
+      "x": 862.22216796875,
+      "y": 22,
+      "width": 63,
+      "height": 21
+     },
+     "index": 22,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_HOVER",
+       "srcPageIndex": 5,
+       "frameIndex": 8,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": false,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -25.222230911254883,
+       "overlayPinHotspotY": -10.000009536743164,
+       "transAnimType": 3,
+       "transAnimDuration": 0.15000000596046448,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Group 22",
+     "rect": {
+      "x": 1588,
+      "y": 12,
+      "width": 122,
+      "height": 40
+     },
+     "index": 23,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 5,
+       "frameIndex": 9,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": true,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -131,
+       "overlayPinHotspotY": 43.000221252441406,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
     }
    ],
    "layout": null
@@ -845,7 +800,7 @@ var story = {
    "protoOverflowV": false,
    "protoOverflowH": false,
    "isFrame": true,
-   "type": "regular",
+   "type": "overlay",
    "fixedPanels": [],
    "links": [
     {
@@ -890,7 +845,7 @@ var story = {
    "protoOverflowV": false,
    "protoOverflowH": false,
    "isFrame": true,
-   "type": "regular",
+   "type": "overlay",
    "fixedPanels": [],
    "links": [
     {
@@ -933,7 +888,7 @@ var story = {
    "protoOverflowV": false,
    "protoOverflowH": false,
    "isFrame": true,
-   "type": "regular",
+   "type": "overlay",
    "fixedPanels": [],
    "links": [
     {
@@ -979,7 +934,7 @@ var story = {
    "protoOverflowV": false,
    "protoOverflowH": false,
    "isFrame": true,
-   "type": "regular",
+   "type": "overlay",
    "fixedPanels": [
     {
      "constrains": {
@@ -1158,7 +1113,6 @@ var story = {
    "groupIndex": 0,
    "title": "SUPPORT",
    "image": "support.png",
-   "imageFixedLess": "fl/support.png",
    "index": 11,
    "width": 1920,
    "height": 1676,
@@ -1172,135 +1126,7 @@ var story = {
    "protoOverflowH": false,
    "isFrame": true,
    "type": "regular",
-   "fixedPanels": [
-    {
-     "constrains": {
-      "top": false,
-      "bottom": false,
-      "left": false,
-      "right": false,
-      "height": false,
-      "width": false
-     },
-     "x": 0,
-     "y": -26,
-     "width": 1920,
-     "height": 116,
-     "type": "float",
-     "index": 0,
-     "isFloat": true,
-     "links": [
-      {
-       "name": "메인화면",
-       "rect": {
-        "x": 577.77783203125,
-        "y": 48,
-        "width": 63,
-        "height": 21
-       },
-       "index": 42,
-       "reactions": [
-        {
-         "action": "FRAME",
-         "navigationType": "OVERLAY",
-         "trigger": "ON_HOVER",
-         "srcPageIndex": 11,
-         "frameIndex": 6,
-         "pageType": "overlay",
-         "overlayCloseOnClickOutside": false,
-         "overlayPinType": "HOTSPOT",
-         "overlayPinHotspot": "RELATIVE",
-         "overlayPinHotspotX": -26.77791404724121,
-         "overlayPinHotspotY": -9.999776840209961,
-         "transAnimType": 3,
-         "transAnimDuration": 0.15000000596046448,
-         "tmpDestModal": false
-        }
-       ]
-      },
-      {
-       "name": "유튜브",
-       "rect": {
-        "x": 728,
-        "y": 48,
-        "width": 47,
-        "height": 21
-       },
-       "index": 43,
-       "reactions": [
-        {
-         "action": "FRAME",
-         "navigationType": "OVERLAY",
-         "trigger": "ON_HOVER",
-         "srcPageIndex": 11,
-         "frameIndex": 7,
-         "pageType": "overlay",
-         "overlayCloseOnClickOutside": false,
-         "overlayPinType": "HOTSPOT",
-         "overlayPinHotspot": "RELATIVE",
-         "overlayPinHotspotX": -33.99990463256836,
-         "overlayPinHotspotY": -9.999894142150879,
-         "transAnimType": 0,
-         "transAnimDuration": 300,
-         "tmpDestModal": false
-        }
-       ]
-      },
-      {
-       "name": "고객센터",
-       "rect": {
-        "x": 862.22216796875,
-        "y": 48,
-        "width": 63,
-        "height": 21
-       },
-       "index": 44,
-       "reactions": [
-        {
-         "action": "FRAME",
-         "navigationType": "OVERLAY",
-         "trigger": "ON_HOVER",
-         "srcPageIndex": 11,
-         "frameIndex": 8,
-         "pageType": "overlay",
-         "overlayCloseOnClickOutside": false,
-         "overlayPinType": "HOTSPOT",
-         "overlayPinHotspot": "RELATIVE",
-         "overlayPinHotspotX": -25.222095489501953,
-         "overlayPinHotspotY": -9.999959945678711,
-         "transAnimType": 3,
-         "transAnimDuration": 0.15000000596046448,
-         "tmpDestModal": false
-        }
-       ]
-      },
-      {
-       "name": "Artboard 14 copy 9@2x 1",
-       "rect": {
-        "x": 239,
-        "y": 0,
-        "width": 128,
-        "height": 116
-       },
-       "index": 45,
-       "reactions": [
-        {
-         "action": "FRAME",
-         "navigationType": "NAVIGATE",
-         "trigger": "ON_CLICK",
-         "srcPageIndex": 11,
-         "frameIndex": 5,
-         "transAnimType": 0,
-         "transAnimDuration": 300,
-         "tmpDestModal": false
-        }
-       ]
-      }
-     ],
-     "image": "support-0.png",
-     "mskH": 116
-    }
-   ],
+   "fixedPanels": [],
    "links": [
     {
      "name": "Rectangle 7",
@@ -1543,6 +1369,112 @@ var story = {
       "height": 29
      },
      "index": 41,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "NAVIGATE",
+       "trigger": "ON_CLICK",
+       "srcPageIndex": 11,
+       "frameIndex": 5,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "메인화면",
+     "rect": {
+      "x": 577.77783203125,
+      "y": 22,
+      "width": 63,
+      "height": 21
+     },
+     "index": 42,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_HOVER",
+       "srcPageIndex": 11,
+       "frameIndex": 6,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": false,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -26.77791404724121,
+       "overlayPinHotspotY": -9.999776840209961,
+       "transAnimType": 3,
+       "transAnimDuration": 0.15000000596046448,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "유튜브",
+     "rect": {
+      "x": 728,
+      "y": 22,
+      "width": 47,
+      "height": 21
+     },
+     "index": 43,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_HOVER",
+       "srcPageIndex": 11,
+       "frameIndex": 7,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": false,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -33.99990463256836,
+       "overlayPinHotspotY": -9.999894142150879,
+       "transAnimType": 0,
+       "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "고객센터",
+     "rect": {
+      "x": 862.22216796875,
+      "y": 22,
+      "width": 63,
+      "height": 21
+     },
+     "index": 44,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_HOVER",
+       "srcPageIndex": 11,
+       "frameIndex": 8,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": false,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -25.222095489501953,
+       "overlayPinHotspotY": -9.999959945678711,
+       "transAnimType": 3,
+       "transAnimDuration": 0.15000000596046448,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Artboard 14 copy 9@2x 1",
+     "rect": {
+      "x": 239,
+      "y": -26,
+      "width": 128,
+      "height": 116
+     },
+     "index": 45,
      "reactions": [
       {
        "action": "FRAME",
