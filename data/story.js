@@ -74,7 +74,7 @@ var story = {
       {
        "action": "URL",
        "srcPageIndex": 1,
-       "url": "youtube.aico.life",
+       "url": "https://youtube.aico.life",
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -94,7 +94,7 @@ var story = {
       {
        "action": "URL",
        "srcPageIndex": 1,
-       "url": "youtube.aico.life",
+       "url": "https://youtube.aico.life",
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -387,7 +387,7 @@ var story = {
       {
        "action": "URL",
        "srcPageIndex": 5,
-       "url": "youtube.aico.life",
+       "url": "https://youtube.aico.life",
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -861,7 +861,7 @@ var story = {
       {
        "action": "URL",
        "srcPageIndex": 7,
-       "url": "youtube.aico.life",
+       "url": "https://youtube.aico.life",
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -1331,7 +1331,7 @@ var story = {
       {
        "action": "URL",
        "srcPageIndex": 11,
-       "url": "youtube.aico.life",
+       "url": "https://youtube.aico.life",
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
