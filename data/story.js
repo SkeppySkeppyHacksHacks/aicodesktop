@@ -74,7 +74,7 @@ var story = {
       {
        "action": "URL",
        "srcPageIndex": 1,
-       "url": "https://youtube.aico.life",
+       "url": "youtube.aico.life",
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -94,7 +94,7 @@ var story = {
       {
        "action": "URL",
        "srcPageIndex": 1,
-       "url": "https://youtube.aico.life",
+       "url": "youtube.aico.life",
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -191,175 +191,11 @@ var story = {
    "layout": null
   },
   {
-   "id": "2146:5261",
-   "groupIndex": 0,
-   "title": "hover top bar",
-   "image": "hover-top-bar.png",
-   "index": 4,
-   "width": 1920,
-   "height": 69,
-   "x": -898,
-   "y": -5503,
-   "awidth": 1920,
-   "aheight": 69,
-   "ax": 0,
-   "ay": 0,
-   "protoOverflowV": false,
-   "protoOverflowH": false,
-   "isFrame": true,
-   "type": "overlay",
-   "fixedPanels": [],
-   "links": [
-    {
-     "name": "Rectangle 45",
-     "rect": {
-      "x": 0,
-      "y": 0,
-      "width": 1920,
-      "height": 69
-     },
-     "index": 4,
-     "reactions": [
-      {
-       "action": "FRAME",
-       "navigationType": "OVERLAY",
-       "trigger": "ON_HOVER",
-       "srcPageIndex": 4,
-       "frameIndex": 4,
-       "disableAutoScroll": true,
-       "pageType": "overlay",
-       "overlayCloseOnClickOutside": false,
-       "overlayPinType": "HOTSPOT",
-       "overlayPinHotspot": "RELATIVE",
-       "overlayPinHotspotX": 0,
-       "overlayPinHotspotY": 0,
-       "transAnimType": 0,
-       "transAnimDuration": 300,
-       "tmpDestModal": false
-      }
-     ]
-    },
-    {
-     "name": "메인화면",
-     "rect": {
-      "x": 577.7777709960938,
-      "y": 22,
-      "width": 63,
-      "height": 21
-     },
-     "index": 5,
-     "reactions": [
-      {
-       "action": "FRAME",
-       "navigationType": "OVERLAY",
-       "trigger": "ON_HOVER",
-       "srcPageIndex": 4,
-       "frameIndex": 6,
-       "pageType": "overlay",
-       "overlayCloseOnClickOutside": false,
-       "overlayPinType": "HOTSPOT",
-       "overlayPinHotspot": "RELATIVE",
-       "overlayPinHotspotX": -25.77777862548828,
-       "overlayPinHotspotY": -10.00022029876709,
-       "transAnimType": 3,
-       "transAnimDuration": 0.15000000596046448,
-       "tmpDestModal": false
-      }
-     ]
-    },
-    {
-     "name": "유튜브",
-     "rect": {
-      "x": 728,
-      "y": 22,
-      "width": 47,
-      "height": 21
-     },
-     "index": 6,
-     "reactions": [
-      {
-       "action": "FRAME",
-       "navigationType": "OVERLAY",
-       "trigger": "ON_HOVER",
-       "srcPageIndex": 4,
-       "frameIndex": 6,
-       "pageType": "overlay",
-       "overlayCloseOnClickOutside": false,
-       "overlayPinType": "HOTSPOT",
-       "overlayPinHotspot": "RELATIVE",
-       "overlayPinHotspotX": -34,
-       "overlayPinHotspotY": -10.000025749206543,
-       "transAnimType": 3,
-       "transAnimDuration": 0.15000000596046448,
-       "tmpDestModal": false
-      }
-     ]
-    },
-    {
-     "name": "고객센터",
-     "rect": {
-      "x": 862.22216796875,
-      "y": 22,
-      "width": 63,
-      "height": 21
-     },
-     "index": 7,
-     "reactions": [
-      {
-       "action": "FRAME",
-       "navigationType": "OVERLAY",
-       "trigger": "ON_HOVER",
-       "srcPageIndex": 4,
-       "frameIndex": 8,
-       "pageType": "overlay",
-       "overlayCloseOnClickOutside": false,
-       "overlayPinType": "HOTSPOT",
-       "overlayPinHotspot": "RELATIVE",
-       "overlayPinHotspotX": -25.222230911254883,
-       "overlayPinHotspotY": -10.000009536743164,
-       "transAnimType": 3,
-       "transAnimDuration": 0.15000000596046448,
-       "tmpDestModal": false
-      }
-     ]
-    },
-    {
-     "name": "Group 22",
-     "rect": {
-      "x": 1588,
-      "y": 12,
-      "width": 122,
-      "height": 40
-     },
-     "index": 8,
-     "reactions": [
-      {
-       "action": "FRAME",
-       "navigationType": "OVERLAY",
-       "trigger": "ON_CLICK",
-       "srcPageIndex": 4,
-       "frameIndex": 9,
-       "pageType": "overlay",
-       "overlayCloseOnClickOutside": true,
-       "overlayPinType": "HOTSPOT",
-       "overlayPinHotspot": "RELATIVE",
-       "overlayPinHotspotX": -131,
-       "overlayPinHotspotY": 43.000221252441406,
-       "transAnimType": 0,
-       "transAnimDuration": 300,
-       "tmpDestModal": false
-      }
-     ]
-    }
-   ],
-   "layout": null
-  },
-  {
    "id": "2146:4323",
    "groupIndex": 0,
-   "title": "DOWNLOAD",
-   "image": "download.png",
-   "index": 5,
+   "title": "메인화면",
+   "image": "메인화면.png",
+   "index": 4,
    "width": 1920,
    "height": 3281,
    "x": -722,
@@ -382,11 +218,11 @@ var story = {
       "width": 63,
       "height": 29
      },
-     "index": 9,
+     "index": 4,
      "reactions": [
       {
        "action": "URL",
-       "srcPageIndex": 5,
+       "srcPageIndex": 4,
        "url": "https://youtube.aico.life",
        "transAnimType": 0,
        "transAnimDuration": 300,
@@ -402,16 +238,44 @@ var story = {
       "width": 83,
       "height": 29
      },
-     "index": 10,
+     "index": 5,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 5,
-       "frameIndex": 11,
+       "srcPageIndex": 4,
+       "frameIndex": 10,
        "transAnimType": 0,
        "transAnimDuration": 300,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "앱 다운로드",
+     "rect": {
+      "x": 640,
+      "y": 3007,
+      "width": 110,
+      "height": 29
+     },
+     "index": 6,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_HOVER",
+       "srcPageIndex": 4,
+       "frameIndex": 8,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": true,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -112,
+       "overlayPinHotspotY": 42.000038146972656,
+       "transAnimType": 3,
+       "transAnimDuration": 0.30000001192092896,
        "tmpDestModal": false
       }
      ]
@@ -424,14 +288,14 @@ var story = {
       "width": 80,
       "height": 80
      },
-     "index": 11,
+     "index": 7,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 5,
-       "frameIndex": 10,
+       "srcPageIndex": 4,
+       "frameIndex": 9,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": true,
        "overlayPinType": "HOTSPOT",
@@ -452,14 +316,14 @@ var story = {
       "width": 80,
       "height": 80
      },
-     "index": 12,
+     "index": 8,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 5,
-       "frameIndex": 10,
+       "srcPageIndex": 4,
+       "frameIndex": 9,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": true,
        "overlayPinType": "HOTSPOT",
@@ -480,13 +344,13 @@ var story = {
       "width": 215,
       "height": 80
      },
-     "index": 13,
+     "index": 9,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 5,
+       "srcPageIndex": 4,
        "frameIndex": 1,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
@@ -508,13 +372,13 @@ var story = {
       "width": 216,
       "height": 69
      },
-     "index": 14,
+     "index": 10,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 5,
+       "srcPageIndex": 4,
        "frameIndex": 2,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
@@ -536,13 +400,13 @@ var story = {
       "width": 241,
       "height": 69
      },
-     "index": 15,
+     "index": 11,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 5,
+       "srcPageIndex": 4,
        "frameIndex": 3,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
@@ -564,13 +428,13 @@ var story = {
       "width": 227,
       "height": 80
      },
-     "index": 16,
+     "index": 12,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 5,
+       "srcPageIndex": 4,
        "frameIndex": 0,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
@@ -592,13 +456,13 @@ var story = {
       "width": 227,
       "height": 80
      },
-     "index": 17,
+     "index": 13,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 5,
+       "srcPageIndex": 4,
        "frameIndex": 0,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
@@ -620,13 +484,13 @@ var story = {
       "width": 227,
       "height": 80
      },
-     "index": 18,
+     "index": 14,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 5,
+       "srcPageIndex": 4,
        "frameIndex": 0,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
@@ -641,34 +505,6 @@ var story = {
      ]
     },
     {
-     "name": "Rectangle 45",
-     "rect": {
-      "x": 0,
-      "y": 0,
-      "width": 1920,
-      "height": 69
-     },
-     "index": 19,
-     "reactions": [
-      {
-       "action": "FRAME",
-       "navigationType": "OVERLAY",
-       "trigger": "ON_HOVER",
-       "srcPageIndex": 5,
-       "frameIndex": 4,
-       "pageType": "overlay",
-       "overlayCloseOnClickOutside": false,
-       "overlayPinType": "HOTSPOT",
-       "overlayPinHotspot": "RELATIVE",
-       "overlayPinHotspotX": 0,
-       "overlayPinHotspotY": 0,
-       "transAnimType": 0,
-       "transAnimDuration": 300,
-       "tmpDestModal": false
-      }
-     ]
-    },
-    {
      "name": "메인화면",
      "rect": {
       "x": 577.7777709960938,
@@ -676,14 +512,14 @@ var story = {
       "width": 63,
       "height": 21
      },
-     "index": 20,
+     "index": 15,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 5,
-       "frameIndex": 6,
+       "srcPageIndex": 4,
+       "frameIndex": 5,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
        "overlayPinType": "HOTSPOT",
@@ -704,13 +540,13 @@ var story = {
       "width": 47,
       "height": 21
      },
-     "index": 21,
+     "index": 16,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 5,
+       "srcPageIndex": 4,
        "frameIndex": 6,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
@@ -732,14 +568,14 @@ var story = {
       "width": 63,
       "height": 21
      },
-     "index": 22,
+     "index": 17,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 5,
-       "frameIndex": 8,
+       "srcPageIndex": 4,
+       "frameIndex": 7,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
        "overlayPinType": "HOTSPOT",
@@ -760,22 +596,22 @@ var story = {
       "width": 122,
       "height": 40
      },
-     "index": 23,
+     "index": 18,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
-       "trigger": "ON_CLICK",
-       "srcPageIndex": 5,
-       "frameIndex": 9,
+       "trigger": "ON_HOVER",
+       "srcPageIndex": 4,
+       "frameIndex": 8,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": true,
        "overlayPinType": "HOTSPOT",
        "overlayPinHotspot": "RELATIVE",
-       "overlayPinHotspotX": -131,
-       "overlayPinHotspotY": 43.000221252441406,
-       "transAnimType": 0,
-       "transAnimDuration": 300,
+       "overlayPinHotspotX": -131.00003051757812,
+       "overlayPinHotspotY": 49.00001907348633,
+       "transAnimType": 3,
+       "transAnimDuration": 0.15000000596046448,
        "tmpDestModal": false
       }
      ]
@@ -788,7 +624,7 @@ var story = {
    "groupIndex": 0,
    "title": "hover 메인화면",
    "image": "hover-메인화면.png",
-   "index": 6,
+   "index": 5,
    "width": 115,
    "height": 41,
    "x": -170,
@@ -811,14 +647,14 @@ var story = {
       "width": 115,
       "height": 41
      },
-     "index": 24,
+     "index": 19,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 6,
-       "frameIndex": 5,
+       "srcPageIndex": 5,
+       "frameIndex": 4,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -833,7 +669,7 @@ var story = {
    "groupIndex": 0,
    "title": "hover 유튜브",
    "image": "hover-유튜브.png",
-   "index": 7,
+   "index": 6,
    "width": 115,
    "height": 41,
    "x": -23,
@@ -856,11 +692,11 @@ var story = {
       "width": 115,
       "height": 41
      },
-     "index": 25,
+     "index": 20,
      "reactions": [
       {
        "action": "URL",
-       "srcPageIndex": 7,
+       "srcPageIndex": 6,
        "url": "https://youtube.aico.life",
        "transAnimType": 0,
        "transAnimDuration": 300,
@@ -876,7 +712,7 @@ var story = {
    "groupIndex": 0,
    "title": "hover 고객센터",
    "image": "hover-고객센터.png",
-   "index": 8,
+   "index": 7,
    "width": 115,
    "height": 41,
    "x": 132,
@@ -899,14 +735,14 @@ var story = {
       "width": 115,
       "height": 41
      },
-     "index": 26,
+     "index": 21,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 8,
-       "frameIndex": 11,
+       "srcPageIndex": 7,
+       "frameIndex": 10,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -922,7 +758,7 @@ var story = {
    "title": "hover 다운로드 호버",
    "image": "hover-다운로드-호버.png",
    "imageFixedLess": "fl/hover-다운로드-호버.png",
-   "index": 9,
+   "index": 8,
    "width": 371,
    "height": 232,
    "x": 582,
@@ -961,11 +797,11 @@ var story = {
         "width": 85,
         "height": 29
        },
-       "index": 27,
+       "index": 22,
        "reactions": [
         {
          "action": "URL",
-         "srcPageIndex": 9,
+         "srcPageIndex": 8,
          "url": "https://play.google.com/store/apps",
          "transAnimType": 0,
          "transAnimDuration": 300,
@@ -981,11 +817,11 @@ var story = {
         "width": 38,
         "height": 29
        },
-       "index": 28,
+       "index": 23,
        "reactions": [
         {
          "action": "URL",
-         "srcPageIndex": 9,
+         "srcPageIndex": 8,
          "url": "https://www.apple.com/app-store/",
          "transAnimType": 0,
          "transAnimDuration": 300,
@@ -1006,7 +842,7 @@ var story = {
    "groupIndex": 0,
    "title": "hover 좋아하는 목소리 선택",
    "image": "hover-좋아하는-목소리-선택.png",
-   "index": 10,
+   "index": 9,
    "width": 1417,
    "height": 499,
    "x": 1269,
@@ -1029,13 +865,13 @@ var story = {
       "width": 227,
       "height": 80
      },
-     "index": 29,
+     "index": 24,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 10,
+       "srcPageIndex": 9,
        "frameIndex": 0,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
@@ -1057,13 +893,13 @@ var story = {
       "width": 227,
       "height": 80
      },
-     "index": 30,
+     "index": 25,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 10,
+       "srcPageIndex": 9,
        "frameIndex": 0,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
@@ -1085,13 +921,13 @@ var story = {
       "width": 227,
       "height": 80
      },
-     "index": 31,
+     "index": 26,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 10,
+       "srcPageIndex": 9,
        "frameIndex": 0,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
@@ -1111,9 +947,9 @@ var story = {
   {
    "id": "2146:4862",
    "groupIndex": 0,
-   "title": "SUPPORT",
-   "image": "support.png",
-   "index": 11,
+   "title": "고객센터",
+   "image": "고객센터.png",
+   "index": 10,
    "width": 1920,
    "height": 1676,
    "x": 2198,
@@ -1136,14 +972,14 @@ var story = {
       "width": 716,
       "height": 69
      },
-     "index": 32,
+     "index": 27,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 11,
-       "frameIndex": 16,
+       "srcPageIndex": 10,
+       "frameIndex": 15,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
        "overlayPinType": "HOTSPOT",
@@ -1164,14 +1000,14 @@ var story = {
       "width": 92,
       "height": 29
      },
-     "index": 33,
+     "index": 28,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 11,
-       "frameIndex": 12,
+       "srcPageIndex": 10,
+       "frameIndex": 11,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
        "overlayPinType": "HOTSPOT",
@@ -1192,14 +1028,14 @@ var story = {
       "width": 77,
       "height": 29
      },
-     "index": 34,
+     "index": 29,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 11,
-       "frameIndex": 13,
+       "srcPageIndex": 10,
+       "frameIndex": 12,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
        "overlayPinType": "HOTSPOT",
@@ -1220,14 +1056,14 @@ var story = {
       "width": 77,
       "height": 29
      },
-     "index": 35,
+     "index": 30,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 11,
-       "frameIndex": 14,
+       "srcPageIndex": 10,
+       "frameIndex": 13,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
        "overlayPinType": "HOTSPOT",
@@ -1248,14 +1084,14 @@ var story = {
       "width": 88,
       "height": 29
      },
-     "index": 36,
+     "index": 31,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 11,
-       "frameIndex": 15,
+       "srcPageIndex": 10,
+       "frameIndex": 14,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
        "overlayPinType": "HOTSPOT",
@@ -1276,14 +1112,14 @@ var story = {
       "width": 281,
       "height": 129
      },
-     "index": 37,
+     "index": 32,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 11,
-       "frameIndex": 17,
+       "srcPageIndex": 10,
+       "frameIndex": 16,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
        "overlayPinType": "HOTSPOT",
@@ -1304,14 +1140,14 @@ var story = {
       "width": 83,
       "height": 29
      },
-     "index": 38,
+     "index": 33,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 11,
-       "frameIndex": 5,
+       "srcPageIndex": 10,
+       "frameIndex": 4,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -1326,11 +1162,11 @@ var story = {
       "width": 63,
       "height": 29
      },
-     "index": 39,
+     "index": 34,
      "reactions": [
       {
        "action": "URL",
-       "srcPageIndex": 11,
+       "srcPageIndex": 10,
        "url": "https://youtube.aico.life",
        "transAnimType": 0,
        "transAnimDuration": 300,
@@ -1346,14 +1182,14 @@ var story = {
       "width": 110,
       "height": 29
      },
-     "index": 40,
+     "index": 35,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 11,
-       "frameIndex": 5,
+       "srcPageIndex": 10,
+       "frameIndex": 4,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -1368,14 +1204,14 @@ var story = {
       "width": 83,
       "height": 29
      },
-     "index": 41,
+     "index": 36,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 11,
-       "frameIndex": 5,
+       "srcPageIndex": 10,
+       "frameIndex": 4,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -1390,14 +1226,14 @@ var story = {
       "width": 63,
       "height": 21
      },
-     "index": 42,
+     "index": 37,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 11,
-       "frameIndex": 6,
+       "srcPageIndex": 10,
+       "frameIndex": 5,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
        "overlayPinType": "HOTSPOT",
@@ -1418,14 +1254,14 @@ var story = {
       "width": 47,
       "height": 21
      },
-     "index": 43,
+     "index": 38,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 11,
-       "frameIndex": 7,
+       "srcPageIndex": 10,
+       "frameIndex": 6,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
        "overlayPinType": "HOTSPOT",
@@ -1446,20 +1282,48 @@ var story = {
       "width": 63,
       "height": 21
      },
-     "index": 44,
+     "index": 39,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "OVERLAY",
        "trigger": "ON_HOVER",
-       "srcPageIndex": 11,
-       "frameIndex": 8,
+       "srcPageIndex": 10,
+       "frameIndex": 7,
        "pageType": "overlay",
        "overlayCloseOnClickOutside": false,
        "overlayPinType": "HOTSPOT",
        "overlayPinHotspot": "RELATIVE",
        "overlayPinHotspotX": -25.222095489501953,
        "overlayPinHotspotY": -9.999959945678711,
+       "transAnimType": 3,
+       "transAnimDuration": 0.15000000596046448,
+       "tmpDestModal": false
+      }
+     ]
+    },
+    {
+     "name": "Group 22",
+     "rect": {
+      "x": 1588,
+      "y": 12,
+      "width": 122,
+      "height": 40
+     },
+     "index": 40,
+     "reactions": [
+      {
+       "action": "FRAME",
+       "navigationType": "OVERLAY",
+       "trigger": "ON_HOVER",
+       "srcPageIndex": 10,
+       "frameIndex": 8,
+       "pageType": "overlay",
+       "overlayCloseOnClickOutside": true,
+       "overlayPinType": "HOTSPOT",
+       "overlayPinHotspot": "RELATIVE",
+       "overlayPinHotspotX": -131.99990844726562,
+       "overlayPinHotspotY": 48.999935150146484,
        "transAnimType": 3,
        "transAnimDuration": 0.15000000596046448,
        "tmpDestModal": false
@@ -1474,14 +1338,14 @@ var story = {
       "width": 128,
       "height": 116
      },
-     "index": 45,
+     "index": 41,
      "reactions": [
       {
        "action": "FRAME",
        "navigationType": "NAVIGATE",
        "trigger": "ON_CLICK",
-       "srcPageIndex": 11,
-       "frameIndex": 5,
+       "srcPageIndex": 10,
+       "frameIndex": 4,
        "transAnimType": 0,
        "transAnimDuration": 300,
        "tmpDestModal": false
@@ -1496,7 +1360,7 @@ var story = {
    "groupIndex": 0,
    "title": "hover 플랜 구매 복구",
    "image": "hover-플랜-구매-복구.png",
-   "index": 12,
+   "index": 11,
    "width": 96,
    "height": 31,
    "x": 4229,
@@ -1518,7 +1382,7 @@ var story = {
    "groupIndex": 0,
    "title": "hover 커스텀 음성",
    "image": "hover-커스텀-음성.png",
-   "index": 13,
+   "index": 12,
    "width": 96,
    "height": 31,
    "x": 4229,
@@ -1540,7 +1404,7 @@ var story = {
    "groupIndex": 0,
    "title": "hover 커스텀 키링",
    "image": "hover-커스텀-키링.png",
-   "index": 14,
+   "index": 13,
    "width": 96,
    "height": 31,
    "x": 4229,
@@ -1562,7 +1426,7 @@ var story = {
    "groupIndex": 0,
    "title": "hover 광크샵 화이팅",
    "image": "hover-광크샵-화이팅.png",
-   "index": 15,
+   "index": 14,
    "width": 96,
    "height": 31,
    "x": 4229,
@@ -1584,7 +1448,7 @@ var story = {
    "groupIndex": 0,
    "title": "hover 검색하기",
    "image": "hover-검색하기.png",
-   "index": 16,
+   "index": 15,
    "width": 738,
    "height": 85,
    "x": 4315,
@@ -1606,7 +1470,7 @@ var story = {
    "groupIndex": 0,
    "title": "hover 이메일 문의하기",
    "image": "hover-이메일-문의하기.png",
-   "index": 17,
+   "index": 16,
    "width": 281,
    "height": 129,
    "x": 4349,
@@ -1624,8 +1488,8 @@ var story = {
    "layout": null
   }
  ],
- "startPageIndex": 5,
- "totalImages": 18,
+ "startPageIndex": 4,
+ "totalImages": 17,
  "groups": [
   {
    "id": "2143:2553",
